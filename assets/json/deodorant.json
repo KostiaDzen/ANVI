@@ -1,0 +1,23 @@
+[
+    {
+        "url": "assets/img/catalog/deodorant/gold_deodorant.png",
+        "title": "Фізіологічний дезодорант SUN",
+        "description": "аромат органічної суміші що створює цитрусовий аромат",
+        "price": "385",
+        "id": "5"
+    },
+    {
+        "url": "assets/img/catalog/deodorant/white_deodorant.png",
+        "title": "Фізіологічний дезодорант PURE",
+        "description": "легкий,майже невагомий аромат органічного масла кокосу",
+        "price": "385",
+        "id": "6"
+    },
+    {
+        "url": "assets/img/catalog/deodorant/gray_deodorant.png",
+        "title": "Фізіологічний дезодорант RAIN",
+        "description": "легкий аромат кедру в поєднанні з мятою та лавандою",
+        "price": "385",
+        "id": "7"
+    }
+]

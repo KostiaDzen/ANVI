@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="assets/img/logo/ANVI.ico">
+    <title>Натуральна косметика | ANVI</title>
+    <link rel="stylesheet" href="assets/css/style.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-inner container">
+            <div class="header-right">
+                <svg class="logo">
+                    <use xlink:href="assets/img/sprite/symbol/sprite.svg#ANVI"></use>
+                </svg>
+                <nav class="header-menu menu">
+                    <ul class="menu-list">
+                        <li class="menu-item"><a href="#main" class="menu-link link active">Головна</a></li>
+                        <li class="menu-item"><a href="#catalog" class="menu-link link">Каталог</a></li>
+                        <li class="menu-item"><a href="#about" class="menu-link link">Про нас</a></li>
+                        <li class="menu-item"><a href="#contacts" class="menu-link link">Контакти</a></li>
+                        <li class="menu-item"><a href="#blog" class="menu-link link">Блог</a></li>
+                        <li class="menu-item"><a href="#cert" class="menu-link link">Подарунковий сертифікат </a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header-left left">
+                <div class="header-contacts">
+                    <svg class="header-contacts-in instagram social">
+                        <use xlink:href="assets/img/sprite/symbol/sprite.svg#Instagram2"></use>
+                    </svg>
+                    <svg class="header-contacts-fb facebook social">
+                        <use xlink:href="assets/img/sprite/symbol/sprite.svg#Facebook"></use>
+                    </svg>
+                    <a href="tel:+380938538729" class="header-contacts-tell">+38 093 853 87 29</a>
+                </div>
+                <div class="header-shop">
+                    <svg class="shop social">
+                        <use xlink:href="assets/img/sprite/symbol/sprite.svg#Shop"></use>
+                    </svg>
+                    <span class="quantity">0</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="popap">
+        <div class="popap-content">
+            <div class="popap-box">
+                <p data-click class="popap-title">ваші товари</p>
+                <img class="popap-close" src="assets/img/sprite/Close2.svg" alt="Close2">
+            </div>
+            <div class="popap-goods">
+            </div>
+            <p data-click class="popap-title popap-goods--price">загальна сума <span class="total-sum">0</span> <span class="null">грн.</span></p>
+            <a class="btn2 popap-btn">Оформити замовлення</a>
+        </div>
+    </div>
+    <div class="popapOrder">
+        <div class="popapOrder-content">
+            <div class="popapOrder-position">
+                <span class="popapOrder-title">Оформлення замовлення</span>
+                <svg class="popapOrder-close close">
+                    <use xlink:href="assets/img/sprite/symbol/sprite.svg#Close2"></use>
+                </svg>
+            </div>
+            <form class="popapOrder-form form">
+                <div class="popapOrder-form--check">
+                    <label class="popapOrder-form--title">
+                        Ім’я  
+                    </label>
+                    <input id="name" class="popapOrder-form--input" type="text" name="name" placeholder="Дарія">
+                </div>
+                <div class="popapOrder-form--check">
+                    <label class="popapOrder-form--title">
+                        Прізвище 
+                    </label>
+                    <input id="surname" class="popapOrder-form--input" type="text" name="surname" placeholder="Прізвище">
+                </div>
+                <div class="popapOrder-form--check">
+                    <label class="popapOrder-form--title">
+                        Телефон 
+                    </label>
+                    <input id="tel" class="popapOrder-form--input" type="tel" name="tel" placeholder="380635118700">
+                </div>
+                <div class="popapOrder-form--box">
+                    <a class="popapOrder-form--btn white">Відміна</a>
+                    <input class="popapOrder-form--btn black" type="submit" value="Оформити">
+                    
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="popapThanks">
+        <div class="popapThanks-content">
+            <h4 class="popapThanks-title">
+                Замовлення оформлено! <br>
+                Дякуємо!
+            </h4>
+            <button class="popapThanks-btn">Добре</button>
+        </div>
+    </div>    <main class="main">
+        <section class="anvi">
+            <div class="anvi-inner container section" id="main">
+                <div class="anvi-left">
+                    
+                    <svg class="anvi-left--logo">
+                        <use xlink:href="assets/img/sprite/symbol/sprite.svg#ANVI"></use>
+                    </svg>
+                    <p class="anvi-left--text">
+                        крафтове виробництво, разом обираємо свідоме споживання та 
+                        виготовляємо дієві природні продукти з натуральних олій, 
+                        глин та рослин</p>
+                    <a href="#catalog" class="btn2 anvi-left--link">Перейти до товарів </a>
+                    <div class="anvi-left--goods">
+                        
+                    </div>
+                </div>
+                <div class="anvi-right">
+                    <img src="assets/img/ANVI/1.jpg" alt="1">
+                    <img src="assets/img/ANVI/2.jpg" alt="2">
+                    <img src="assets/img/ANVI/3.jpg" alt="3">
+                </div>
+            </div>
+        </section>
+        
+        <section class="catalog">
+            <div class="catalog-inner container section" id="catalog">
+                <h2 class="catalog-title">Каталог товарів</h2>
+                <div class="catalog-menu">
+                    <a href="#shampoo" class="catalog-menu--items active btn">Шампунь</a>
+                    <a href="#balm_hair" class="catalog-menu--items btn">Бальзам</a>
+                    <a href="#deodorant" class="catalog-menu--items btn">Дезодорант</a>
+                    <a href="#balm_lips" class="catalog-menu--items btn">Для губ</a>
+                    <a href="#news" class="catalog-menu--items btn">Новинки</a>
+                </div>
+            </div>
+        </section>
+        <section class="shampoo">
+            <div class="shampoo-inner box" id="shampoo">
+                <div class="box-right">
+                    <img src="assets/img/catalog/shampoo/solid_shampoo.jpg" alt="sold_shampoo" class="box-img">
+                </div>
+                <div class="box-left">
+                    <div class="box-content">
+                        <h3 class="box-content--title">Твердий шампунь</h3>
+                        <p class="box-content--text">Збагачений натуральними рослинними екстрактами 
+                            та сумішами ефірних олій </p>
+                        <p class="box-content--text">Зробить волосся м’якими, блискучими та об’ємним </p>
+                        <p class="box-content--text">Пінистий та ароматний</p>
+                        <p class="box-content--text">Піднімає настрій. ви більше ніколи не захочете повернутися до традиційних шампунів у пляшках.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="shampoo_goods goods container">
+            </div>
+        </section>
+        <section class="shampoo">
+            <div class="shampoo-inner box back" id="balm_hair">
+                <div class="box-right">
+                    <img src="assets/img/catalog/balm/for_hair/big_balm_for_hair.jpg" alt="sold_shampoo" class="box-img">
+                </div>
+                <div class="box-left right">
+                    <div class="box-content">
+                        <h3 class="box-content--title">Бальзам для волосся</h3>
+                        <p class="box-content--text">Щедро насичений натуральними оліями та
+                            масла  </p>
+                        <p class="box-content--text">Забезпечує максимальне живлення та гладкість </p>
+                        <p class="box-content--text">Гарантує вам ідеальну зачіску щодня</p>
+                        <p class="box-content--text">Відчуйте користь якісних інгредієнтів під час кожного використання.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="balm-hair_goods goods container">
+            </div>
+        </section>
+        <section class="shampoo">
+            <div class="shampoo-inner box" id="deodorant">
+                <div class="box-right">
+                    <img src="assets/img/catalog/deodorant/big_deodorant.jpg" alt="sold_shampoo" class="box-img img">
+                </div>
+                <div class="box-left">
+                    <div class="box-content">
+                        <h3 class="box-content--title">Фізіологічний  дезодорант</h3>
+                        <p class="box-content--text">Виготовлені з ефірних олій і натуральних інгредієнтів</p>
+                        <p class="box-content--text">Забезпечить свіжість на цілий день  </p>
+                        <p class="box-content--text">Є кращою альтернативою традиційним засобам</p>
+                        <p class="box-content--text">Насолоджуйтеся безвідходним способом життя з нашими засобами по догляду за тілом. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="deodorant_goods goods container">
+            </div>
+        </section>
+        <section class="shampoo">
+            <div class="shampoo-inner box back" id="balm_lips">
+                <div class="box-right">
+                    <img src="assets/img/catalog/balm/for_lips/big_balm_for_lips.jpg" alt="sold_shampoo" class="box-img">
+                </div>
+                <div class="box-left right">
+                    <div class="box-content">
+                        <h3 class="box-content--title">Бальзам для губ</h3>
+                        <p class="box-content--text">Відновлює та зволожує потріскані губи </p>
+                        <p class="box-content--text">Виготовлений з натуральних та високоякісних інгредієнтів </p>
+                        <p class="box-content--text">Інгредієнти одержані з екоголічно чистих джерел</p>
+                    </div>
+                </div>
+            </div>
+            <div class="balm-lips_goods goods container">
+            </div>
+        </section>
+        <section class="news">
+            <div class="news-inner container" id="news">
+                <h3 class="news-title">новинки</h3>
+                <div class="news-goods goods container">
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="about-inner container section"  id="about">
+                <h2 class="about-title">Anvibodycare хто і про що ми</h2>
+                <div class="about-content">
+                    <div class="about-content--col">
+                        <p class="about-content--text">Ми (ANVI) - I це про дбайливе ставлення до людини та планети.</p>
+                        <p class="about-content--text">“Environment”- яке надихало при пошуку ім'я бренду, що означає навколишнє середовище.</p>
+                        <img src="assets/img/main/about_us/body.png" class="about-content--body" alt="body">
+                    </div>
+                    <div class="about-content--col">
+                        <img src="assets/img/main/about_us/hand.png" class="about-content--img" alt="hand">
+                    </div>
+                    <div class="about-content--col">
+                        <img src="assets/img/main/about_us/woman.png" alt="woman">
+                        <p class="about-content--text">Велику роль приділяється як вмісту, так і пакуванню.</p>
+                        <p class="about-content--text">Ми обираємо найкращі екологічні інгредієнти, додаємо олії, трави, екстракти рослин, 
+                            водорості <br> та глини найвищої якості <br> й перетворюємо їх у чудові засоби <br> по догляду за волоссям та тілом.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cert">
+            <div class="cert-inner container section" id="cert">
+                <div class="cert-left">
+                    <h2 class="cert-left--title">Електронний подарунковий сертифікат</h2>
+                    <div class="cert-left--text">
+                        <p>Ви не помилитесь із подарунковим сертифікатом.</p>
+                        <p>Виберіть суму й напишіть індивідуальне повідомлення, щоб персоналізувати подарунок.</p>
+                    </div>
+                    <a href="#" class="btn2 cert-left--link">Замовити сертифікат</a>
+                </div>
+                <div class="cert-right">
+                    <img src="assets/img/main/certificate/certificate.jpg" alt="certificate">
+                </div>
+            </div>
+        </section>
+        <section class="answers">
+            <div class="answers-inner container">
+                <h2 class="answers-title">Відгуки </h2>
+                
+                <div class="swiper answers-slider slider">
+                    
+                    <div class="swiper-wrapper">
+                    
+                        <div class="swiper-slide">
+                            <div class="swiper-slide--item item" data-slide="#Slide1">
+                                <img src="assets/img/main/answers/answers1_bg.jpg" alt="answers1" class="item-img--bg" id="Slide1">
+                                <img src="assets/img/main/answers/answers1.png" alt="answers1" class="item-img">
+                                <p class="item-text">Добрий вечір! 2 дні тому отримала ваш дезодорант, вже користуюсь, 
+                                    дуже подобається: гарний запах, працює відмінно, + до того дуже класна туба, 
+                                    давно шукала zero-waste продукти! дякую</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide--item item" data-slide="#Slide2">
+                                <img src="assets/img/main/answers/answers1_bg.jpg" alt="answers1" class="item-img--bg" id="Slide2">
+                                <img src="assets/img/main/answers/answers1.png" alt="answers1" class="item-img">
+                                <p class="item-text">Добрий вечір! 2 дні тому отримала ваш дезодорант, вже користуюсь, 
+                                    дуже подобається: гарний запах, працює відмінно, + до того дуже класна туба, 
+                                    давно шукала zero-waste продукти! дякую</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide--item item" data-slide="#Slide3">
+                                <img src="assets/img/main/answers/answers1_bg.jpg" alt="answers1" class="item-img--bg" id="Slide3">
+                                <img src="assets/img/main/answers/answers1.png" alt="answers1" class="item-img">
+                                <p class="item-text">Добрий вечір! 2 дні тому отримала ваш дезодорант, вже користуюсь, 
+                                    дуже подобається: гарний запах, працює відмінно, + до того дуже класна туба, 
+                                    давно шукала zero-waste продукти! дякую</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide--item item" data-slide="#Slide4">
+                                <img src="assets/img/main/answers/answers1_bg.jpg" alt="answers1" class="item-img--bg" id="Slide4">
+                                <img src="assets/img/main/answers/answers1.png" alt="answers1" class="item-img">
+                                <p class="item-text">Добрий вечір! 2 дні тому отримала ваш дезодорант, вже користуюсь, 
+                                    дуже подобається: гарний запах, працює відмінно, + до того дуже класна туба, 
+                                    давно шукала zero-waste продукти! дякую</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide--item item" data-slide="#Slide5">
+                                <img src="assets/img/main/answers/answers1_bg.jpg" alt="answers1" class="item-img--bg" id="Slide5">
+                                <img src="assets/img/main/answers/answers1.png" alt="answers1" class="item-img">
+                                <p class="item-text">Добрий вечір! 2 дні тому отримала ваш дезодорант, вже користуюсь, 
+                                    дуже подобається: гарний запах, працює відмінно, + до того дуже класна туба, 
+                                    давно шукала zero-waste продукти! дякую</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide--item item" data-slide="#Slide6">
+                                <img src="assets/img/main/answers/answers1_bg.jpg" alt="answers1" class="item-img--bg" id="Slide6">
+                                <img src="assets/img/main/answers/answers1.png" alt="answers1" class="item-img">
+                                <p class="item-text">Добрий вечір! 2 дні тому отримала ваш дезодорант, вже користуюсь, 
+                                    дуже подобається: гарний запах, працює відмінно, + до того дуже класна туба, 
+                                    давно шукала zero-waste продукти! дякую</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    
+                    <div class="swiper-button-prev"></div>
+                    <div class="answer-btn-next swiper-button-next"></div>
+            
+                </div>
+            </div>
+        </section>
+        <section class="blog">
+            <div class="blog-inner container section" id="blog">
+                <h2 class="blog-title">блог</h2>
+                <div class="blog-above">
+                    <div class="blog-above--right">
+                        <span class="blog-above--title white-title">ХТО МИ</span>
+                        <div class="blog-above--right_content">
+                            <p class="blog-above--text">Ми (ANVI) - I це про дбайливе ставлення до людини та планети.<br>
+                            ANVI дещо співзвучне зі словом “Environment”- яке...</p>
+                            <a href="#" class="btn2">читати далі</a></div>
+                        </div>
+                    <div class="blog-above--left">
+                        <img src="assets/img/main/blogs/blog_above.jpg" alt="blog_above">
+                    </div>
+                </div>
+                <div class="blog-below">
+                    <div class="blog-below--item">
+                        <img src="assets/img/main/blogs/blog1.jpg" alt="blog1" class="blog-below--img">
+                        <span class="blog-below--text white-title">ДЕЗОДОРАНТ VS АНТИПЕРСПІРАНТ</span>
+                    </div>
+                    <div class="blog-below--item">
+                        <img src="assets/img/main/blogs/blog2.jpg" alt="blog1" class="blog-below--img">
+                        <span class="blog-below--text white-title">УСЕ, ЩО ПОТРІБНО ЗНАТИ ПРО НАТУРАЛЬНІ ДЕЗОДОРАНТИ</span>
+                    </div>
+                    <div class="blog-below--item">
+                        <img src="assets/img/main/blogs/blog3.jpg" alt="blog1" class="blog-below--img">
+                        <span class="blog-below--text center white-title">НАШІ ЦІННОСТІ</span>
+                    </div>
+                    <div class="blog-below--item">
+                        <img src="assets/img/main/blogs/blog4.jpg" alt="blog1" class="blog-below--img">
+                        <span class="blog-below--text white-title">ГОЛОВНИЙ СУПЕРГЕРОЙ ДЕЗОДОРАНТВ ANVI!</span>
+                    </div>
+                    <div class="blog-below--item">
+                        <img src="assets/img/main/blogs/blog5.jpg" alt="blog1" class="blog-below--img">
+                        <span class="blog-below--text center white-title">РОЗВИТОК СПІЛЬНОТИ БЛОГА</span>
+                    </div>
+                    <div class="blog-below--item">
+                        <img src="assets/img/main/blogs/blog6.jpg" alt="blog1" class="blog-below--img">
+                        <span class="blog-below--text white-title">ЗБЕРІГАННЯ ТВЕРДИХ 
+                            ЗАСОБІВ ANVI</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="contacts section" id="contacts">
+            <div class="contacts-inner">
+                <div class="contacts-tab">
+                    <img src="assets/img/main/contacts/flower.jpg" alt="flower">
+                </div>
+                <div class="contacts-links">
+                    <h2 class="contacts-links--title">контакти</h2>
+                    <a href="https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%AF%D1%80%D0%BE%D1%81%D0%BB%D0%B0%D0%B2%D1%81%D0%BA%D0%B0%D1%8F,+9,+%D0%A7%D0%B5%D1%80%D0%BA%D0%B0%D1%81%D1%81%D1%8B,+%D0%A7%D0%B5%D1%80%D0%BA%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+18000/@49.4349186,32.0092397,17.5z/data=!4m6!3m5!1s0x40d14c6989f9bb2f:0x8c3938281fd3384b!8m2!3d49.4350849!4d32.0127976!16s%2Fg%2F11c1z48pn5?entry=ttu" 
+                    class="contacts-links--address leftsvg"
+                    target="_blank">м. Черкаси вул. <br>
+                        Ярославська, 9</a>
+                    <a href="mailto:anvibodycare@gmail.com" class="contacts-links--email leftsvg">anvibodycare@gmail.com</a>
+                    <div class="contacts-links--number leftsvg">
+                        <a href="tel:380938538729">+380938538729</a> 
+                        <br>
+                        <span>Працюємо з 9.00 до 23.00</span>
+                    </div>
+                    <div class="contacts-links--social leftsvg">
+                        <span class="contacts-links--social_text">
+                            або зв'яжіться з нами <br> у месенджерах
+                        </span>
+                        <svg class="social black">
+                            <use xlink:href="assets/img/sprite/symbol/sprite.svg#Instagram2"></use>
+                        </svg>
+                        <svg class="social black">
+                            <use xlink:href="assets/img/sprite/symbol/sprite.svg#Facebook"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="contacts-img">
+                    <img src="assets/img/main/contacts/big_goods.jpg" alt="big_goods">
+                </div>
+            </div>
+        </div>
+        <section class="questions">
+            <div class="questions-inner container">
+                <div class="questions-left">
+                    <h2 class="questions-left--title left">FAQ - поширенні питання</h2>
+                    <div class="questions-left--content">
+                            <div class="content">
+                                <div class="content-box">
+                                    <svg class="arrow">
+                                        <use xlink:href="assets/img/sprite/symbol/sprite.svg#ArrowRight"></use>
+                                    </svg>
+                                    <h4 class="content--title" data-tab="#tab1">
+                                        Куди звертатись, якщо виникли складнощі з оформленням замовлення?</h4>
+                                </div>
+                                <p class="content--text active" id="tab1">Ви можете написати нам в Direct, <br>
+                                    на електронну адресу anvibodycare@gmail.com <br>
+                                    або ж зателефонувати за номером:<br>
+                                    <a href="tel:0938538729">
+                                        +380938538729</a>
+                                    </p>
+                            </div> 
+                            <div class="content">
+                                <div class="content-box">
+                                    <svg class="arrow">
+                                        <use xlink:href="assets/img/sprite/symbol/sprite.svg#ArrowRight"></use>
+                                    </svg>
+                                    <h4 class="content--title" data-tab="#tab2">
+                                        Куди звертатись, якщо виникли складнощі з оформленням замовлення?</h4>
+                                </div>
+                                <p class="content--text" id="tab2">Ви можете написати нам в Direct, <br>
+                                    на електронну адресу anvibodycare@gmail.com <br>
+                                    або ж зателефонувати за номером:<br>
+                                    <a href="tel:0938538729">
+                                        +380938538729</a>
+                                    </p>
+                            </div>
+                            <div class="content">
+                                <div class="content-box">
+                                    <svg class="arrow">
+                                        <use xlink:href="assets/img/sprite/symbol/sprite.svg#ArrowRight"></use>
+                                    </svg>
+                                    <h4 class="content--title" data-tab="#tab3">
+                                        Куди звертатись, якщо виникли складнощі з оформленням замовлення?</h4>
+                                </div>
+                                <p class="content--text" id="tab3">Ви можете написати нам в Direct, <br>
+                                    на електронну адресу anvibodycare@gmail.com <br>
+                                    або ж зателефонувати за номером:<br>
+                                    <a href="tel:0938538729">
+                                        +380938538729</a>
+                                    </p>
+                            </div>  
+                    </div>
+                </div>
+                <div class="questions-right">
+                    <img src="assets/img/main/questions/img.jpg" alt="img">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-top">
+            <img src="assets/img/footer/ANVI.jpg" alt="ANVI">        
+        </div>
+        <div class="footer-bottom container">
+            <div class="footer-item">
+                <svg class="logo">
+                    <use xlink:href="assets/img/sprite/symbol/sprite.svg#ANVI"></use>
+                </svg>
+            </div>
+            <div class="footer-item">
+                <span class="footer-item--title">Інформація</span>
+                <a href="#" class="footer-item--link">Оплата і доставка</a>
+                <a href="#" class="footer-item--link">Обмін і повернення</a>
+            </div>
+            <div class="footer-item">
+                <span class="footer-item--title">Бренд</span>
+                <a href="#" class="footer-item--link">Про нас</a>
+                <a href="#" class="footer-item--link">Блог</a>
+            </div>
+            <div class="footer-item">
+                <span class="footer-item--title">Користувачу</span>
+                <a href="#" class="footer-item--link">Програма лояльності</a>
+                <a href="#" class="footer-item--link">Угода користувача</a>
+            </div>
+            <div class="footer-item">
+                <img src="assets/img/footer/cards.png" alt="cards">
+            </div>
+            <div class="footer-item">
+                <a href="tel:0938538729" class="footer-item--numb">
+                    +380938538729</a>
+                <div class="footer-item--social">
+                    <svg class="instagram social">
+                        <use xlink:href="assets/img/sprite/symbol/sprite.svg#Instagram2"></use>
+                    </svg>
+                    <svg class="facebook social">
+                        <use xlink:href="assets/img/sprite/symbol/sprite.svg#Facebook"></use>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/swiper-bundle.js"></script>
+    <script src="assets/js/main.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+[
+    {
+        "url": "assets/img/catalog/balm/for_lips/cutrus_balm_for_lips.png",
+        "title": "Бальзам CITRUS для губ",
+        "description": "ароматцит цусових, наповнює енергією та позитивом",
+        "price": "185",
+        "id": "8"
+    },
+    {
+        "url": "assets/img/catalog/balm/for_lips/mint_balm_for_lips.png",
+        "title": "Бальзам MINT для губ",
+        "description": "аромат м'ятного льодяника",
+        "price": "185",
+        "id": "9"
+    },
+    {
+        "url": "assets/img/catalog/balm/for_lips/coco_balm_for_lips.png",
+        "title": "Бальзам СОСО для губ",
+        "description": "тонкий присмак нерафінованої virgin олії кокосу",
+        "price": "185",
+        "id": "10"
+    }
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "url": "assets/img/catalog/shampoo/white_shampoo.png",
+        "title": "Фізіологічний шампунь VIRGIN",
+        "description": "для чутливої та схильної до сухості шкіри голови",
+        "price": "120",
+        "id": "0"
+    },
+    {
+        "url": "assets/img/catalog/shampoo/brown_shampoo.png",
+        "title": "Фізіологічний шампунь WILD",
+        "description": "для нормальної та схильної до жирності шкіри голови",
+        "price": "120",
+        "id": "1"
+    },
+    {
+        "url": "assets/img/catalog/shampoo/blue_shampoo.png",
+        "title": "Фізіологічний шампунь PURE",
+        "description": "для нормальної шкіри голови ",
+        "price": "120",
+        "id": "2"
+    }
+]
+

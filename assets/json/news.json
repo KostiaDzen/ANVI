@@ -1,0 +1,16 @@
+[
+    {
+        "url": "assets/img/catalog/news/gifts.png",
+        "title": "Захисна сироватка GLOW",
+        "description": "аромат цитрусових, наповнює енергією та позитивом",
+        "price": "450",
+        "id": "11"
+    },
+    {
+        "url": "assets/img/catalog/news/cream.png",
+        "title": "Крем-ліпід",
+        "description": "для рук та тіла з екстрактами зернових",
+        "price": "450",
+        "id": "12"
+    }
+]

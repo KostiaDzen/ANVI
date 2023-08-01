@@ -1,0 +1,16 @@
+[
+    {
+        "url": "assets/img/catalog/balm/for_hair/blue_balm.png",
+        "title": "SHINE",
+        "description": "твердий бальзам кондиціонер з ароматом дикої мяти та хвої",
+        "price": "130",
+        "id": "3"
+    },
+    {
+        "url": "assets/img/catalog/balm/for_hair/yellow_balm.png",
+        "title": "SILK",
+        "description": "твердий бальзам кондиціонер з ароматом цитрусових",
+        "price": "130",
+        "id": "4"
+    }
+]
